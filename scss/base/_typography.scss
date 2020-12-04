@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.h-style {
+    @include h-styling;
+}
+
+.section-1-p, 
+.secondary-paragraph {
+    @include p-styles;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+   display: inline-block; 
+   padding: 0.55em 1.5em;
+   margin: 1.3em 1.3em 0;
+   border-radius: 0.12em;
+   border: none;
+   text-decoration: none;
+   text-align: center;
+   color: #000000;
+   background-color: $main-color;
+}
+
+.btn:hover {
+    background: $main-color-lighten;
+    transition: .5s;
+}
+
+.locations {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.location_input {
+    width: 98%;
+    padding: 5px;
+    border: 1px solid $main-color;
+    margin: 15px;
+}
+
+.location-label {
+    padding: 10px;
+    text-align: center
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 75%;
+}
+
+.contact_input {
+    padding: 5px;
+    margin: 7px;
+    border-radius: 3px;
+    border: 1px solid $border-line-color;
+    border-bottom: 3px solid $border-line-light;
+}
+
+input::placeholder {
+    padding-left: 5px;
+}
+
+.send_btn {
+    background: $main-color;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px;
+    width: 75%;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.marker {
+    position: absolute;
+    right: 0;
+    padding: 9px 8px;
+}

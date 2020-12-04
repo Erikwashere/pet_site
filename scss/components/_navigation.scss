@@ -1,0 +1,64 @@
+/// Navigation Bar
+
+.logo {
+    border-radius: 10px;
+    color: black;
+    font-size: 3em;
+    width: 70%;
+}
+
+.dog-paw {
+   margin: 2px;
+}
+
+.main-content, 
+.main-header {
+    background: $background-color;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+}
+
+.nav_li {
+    border-radius: 50px;
+    width: 25%;
+    
+    &:hover {
+        background: $main-color;
+        color: white;
+    }
+}
+
+.main-nav li {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+
+}
+
+.contact_li {
+    background: $main-color;
+    border-radius: 50px;
+    width: 25%;
+    text-align: center;
+    color: $contact-li-color;
+
+    &:hover {
+        background: white;
+        color: $main-color;
+    }
+}
+
+/// box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75); for Larger screens

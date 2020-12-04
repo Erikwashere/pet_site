@@ -1,0 +1,11 @@
+/// All Colors
+
+$main-color: #ff99ad;
+$background-color: #f8f8f8;
+$border-line-color: #ececec;
+$contact-li-color: white;
+
+/// Lighten Colors
+
+$main-color-lighten: lighten($main-color, 10%);
+$border-line-light: darken($border-line-color, 10%)
